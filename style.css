@@ -6,6 +6,7 @@
 main {
     background-color: beige;
 
+
 }
 
 .section1 {
@@ -15,10 +16,7 @@ main {
 
 .full-container {
     width: 80%;
-
-
-
-
+    margin: 0 auto;
 }
 
 .main-header {
@@ -200,4 +198,14 @@ span {
 
 .top-text h1 {
     font-size: 1.7em;
+}
+
+@media screen and (max-width:320px) {
+    .main-container {
+
+        grid-template-columns: repeat(1fr);
+
+    }
+
+
 }
