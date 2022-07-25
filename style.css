@@ -141,6 +141,11 @@ main {
 
 }
 
+.first-p a {
+
+    color: black;
+}
+
 .second-p a {
     color: white;
 }
