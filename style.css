@@ -53,9 +53,10 @@ main {
 
 .header-writing-side button {
     padding: 5px 10px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.884);
     font-size: 1.4em;
-    border-radius: 5px;
+    border-radius: 10px;
+    color: white;
 }
 
 .main-header div {
@@ -138,6 +139,10 @@ main {
     border-radius: 9px;
     padding: 10px 0;
 
+}
+
+.second-p a {
+    color: white;
 }
 
 /* Left Side Style End  */
@@ -422,7 +427,7 @@ a {
         margin-left: 7px;
         background-color: rgb(241, 86, 65);
         font-size: 1em;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .main-header div {

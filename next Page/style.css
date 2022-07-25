@@ -34,6 +34,10 @@ main {
 
 }
 
+.main-header:hover>.header-img {
+    transition: red 02s ease-in-out;
+}
+
 .header-writing-side {
     margin-left: 40px;
 
@@ -135,4 +139,41 @@ main {
 .img-div {
     display: flex;
     gap: 5px;
+}
+
+/* footer section start  */
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 300px;
+    margin-top: 30px;
+
+}
+
+.footer-section {
+    background-color: black;
+    color: white;
+    width: 80%;
+    padding-top: 70px;
+
+}
+
+.all-manu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-manu a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.top-text {
+    text-align: center;
+}
+
+.top-text h1 {
+    font-size: 1.7em;
 }
